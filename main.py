@@ -43,7 +43,7 @@ def main():
     print("Какие вакансии Вас интересуют?")
     while True:
         keyword = input("введите ключевое слово: ")
-        print('идёт поиск подходящих вакансий ...')
+        print('ожидаем вывода результатов ...')
         count = 0
         reset_data_of_file()
         for site in (HH(keyword), SJ(keyword)):  # перебор по двум сайтам
